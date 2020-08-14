@@ -53,32 +53,32 @@ function showWeatherReport(weather) {
     else if (weatherType.textContent == 'Clouds') {
         document.body.style.backgroundImage = "url('images/cloud.jpg')";
         let iconElement = document.querySelector('.icon-img');
-        iconElement.innerHTML = "<img src='../images/icon/cloudy.png' alt=''>";
+        iconElement.innerHTML = "<img src='images/icon/cloudy.png' alt=''>";
     }
     else if (weatherType.textContent == 'Haze') {
         document.body.style.backgroundImage = "url('images/cloud.jpg')";
         let iconElement = document.querySelector('.icon-img');
-        iconElement.innerHTML = "<img src='../images/icon/haze.png' alt=''>";
+        iconElement.innerHTML = "<img src='images/icon/haze.png' alt=''>";
     }
     else if (weatherType.textContent == 'Rain') {
         document.body.style.backgroundImage = "url('images/rainy.jpg')";
         let iconElement = document.querySelector('.icon-img');
-        iconElement.innerHTML = "<img src='../images/icon/rain.png' alt=''>";
+        iconElement.innerHTML = "<img src='images/icon/rain.png' alt=''>";
     }
     else if (weatherType.textContent == 'Snow') {
         document.body.style.backgroundImage = "url('images/snow.jpg')";
         let iconElement = document.querySelector('.icon-img');
-        iconElement.innerHTML = "<img src='../images/icon/snow.png' alt=''>";
+        iconElement.innerHTML = "<img src='images/icon/snow.png' alt=''>";
     }
     else if (weatherType.textContent == 'Stormy') {
         document.body.style.backgroundImage = "url('images/stormy.jpg')";
         let iconElement = document.querySelector('.icon-img');
-        iconElement.innerHTML = "<img src='../images/icon/stormy.png' alt=''>";
+        iconElement.innerHTML = "<img src='images/icon/stormy.png' alt=''>";
     }
     else if (weatherType.textContent == 'Thunderstorm') {
         document.body.style.backgroundImage = "url('images/thunderstorm.jpg')";
         let iconElement = document.querySelector('.icon-img');
-        iconElement.innerHTML = "<img src='../images/icon/thunderstorm.png' alt=''>";
+        iconElement.innerHTML = "<img src='images/icon/thunderstorm.png' alt=''>";
     }
 
 }
